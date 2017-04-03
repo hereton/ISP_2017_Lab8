@@ -20,13 +20,9 @@ public class Rec {
 
 	}
 
-	/**
-	 * = a copy of s with to_remove_char removed. Example: removeChar("abeabe",
-	 * 'e') = "abab".
-	 */
+	
 	public static String removeChar(String s, char to_remove_char) {
 
-		// fill me in
 
 	}
 
@@ -53,6 +49,7 @@ public class Rec {
 		System.out.println(sumDigits(123456));
 		System.out.println(sumDigits(1));
 		System.out.println(sumDigits(0));
+
 		System.out.println("-----------------");
 		System.out.println(removeChar("eawabbcceccddeeaaeeeee", 'e'));
 		System.out.println(removeChar("acacacacac", 'a'));
@@ -60,5 +57,6 @@ public class Rec {
 		System.out.println(reverse("aaabbbaccabda"));
 		System.out.println(reverse("abbcccdeaaa"));
 		System.out.println(reverse("AMANAPLANACANALPANAMA"));
+
 	}
 }
