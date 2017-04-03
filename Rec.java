@@ -6,8 +6,14 @@ public class Rec {
 		numDigits(1356) = 4.
 		Precondition: n >= 0. */
     public static int numDigits(int n) {
+	int count = 0;
+
+    while(n>10){
+		n=n/10;
+		count+=1;
+	}
+    return count+1;
 	
-	// fill me in
 	
     }
 
@@ -33,7 +39,7 @@ public class Rec {
 		Example: reverse("abcdefg") = "gfedcba". */
 	public static String reverse(String s) {
 	
-	// fill me in
+	 //fill me in
 	
 	}
 
@@ -46,7 +52,7 @@ public class Rec {
         System.out.println(sumDigits(123));
         System.out.println(sumDigits(123456));
         System.out.println(sumDigits(1));
-        System.out.println(sumDigits(0));
+       System.out.println(sumDigits(0));
 	System.out.println("-----------------");
 	System.out.println(removeChar("eawabbcceccddeeaaeeeee", 'e'));
 	System.out.println(removeChar("acacacacac", 'a'));
